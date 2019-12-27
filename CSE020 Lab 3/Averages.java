@@ -6,17 +6,22 @@ public class Averages
 	{
 		System.out.print("This program will ask the user for two numbers, ");
 		System.out.println("and will calculate the average of those numbers.");
-
+		
+		//Creating a Scanner
 		Scanner input = new Scanner(System.in);
-
+		
+		//Declaring variables to use for Scanner
 		int n1, n2;
-
+		
+		//Program asks for an Input and stores it in the int variable n1
 		System.out.println("Please enter the first number:");
 		n1 = input.nextInt();
 		
+		//Program asks for an Input and stores it in the int variable n2
 		System.out.print("Please enter the second number:");
 		n2 = input.nextInt();
 
+		//Calculating Average of Two Numbers
 		double average;
 		average = (n1+n2)/2.0;
 		System.out.print("The average of the numbers " + n1 + " and " + n2 + " is ");
