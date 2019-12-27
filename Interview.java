@@ -2,6 +2,7 @@
 public class Interview {
 
 	public static void main(String[] args) {
+		//Utilized the tab character "\t" which tabs in the print statement
 		System.out.print("Person interviewed:");
 		System.out.println(" \tEthan");
 		System.out.println("Ethan's hometown: \tSan Jose");
