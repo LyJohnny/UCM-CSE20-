@@ -8,4 +8,4 @@ Presents the basics of programming to a student with no prior experience. Basic 
 Data Types, Variables and Arrays will be introduced in the context of solving problems. Elementary programming skills such 
 as conditional and loops execution will be emphasized.
 
-The primary Programming Language used was Java.
+The primary programming language used was Java.
