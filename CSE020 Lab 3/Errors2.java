@@ -21,5 +21,5 @@ public class Errors2 {
 		//System.out.print(Number + " squared = "; Needs end parentheses to complete print statement and Number changed to lower case number because that's the input being used
 		System.out.println(thesquare);
 		//System.out.println(theSquare); This was trying to print the wrong object, I corrected it to thesquare where the number * number
-	}
+	} 
 }
