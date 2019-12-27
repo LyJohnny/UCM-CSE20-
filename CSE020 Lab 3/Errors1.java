@@ -24,4 +24,4 @@ public class Errors1 {
 		System.out.println(n1 + n2);
 		//System.out.println(n1 - n2); Logistic error. It's asking for the sum so the operator should be + not -
 	}
-}
+} 
