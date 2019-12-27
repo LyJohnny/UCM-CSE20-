@@ -29,4 +29,4 @@ public class Errors3 {
 		System.out.println((double) numerator/denominator);
 		//System.out.Println((double) numerator/denominator); Println should be lower cased
 	}
-}
+} 
