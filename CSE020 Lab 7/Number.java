@@ -10,6 +10,7 @@ public class Number {
 		
 		System.out.println("You have entered " + (int)(num));
 		
+		//Checks to see if the number input is in the range of 1 to 26
 		if(num >=1 && num <=26) {
 			System.out.println("Character " + (int)(num) + " of the alphabet is " + (char)(64+(num)));
 		}
