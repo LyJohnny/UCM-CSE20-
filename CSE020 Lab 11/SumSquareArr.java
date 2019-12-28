@@ -38,6 +38,6 @@ for (i = 1; i <= maxNumber; i++)
 	System.out.println("\nSum of numbers 1 to max is: " + arr1[maxNumber]);
 
 	maxN.close();
-}
+} 
 }
 }
