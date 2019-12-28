@@ -10,6 +10,7 @@ public class SumAll {
 		numMax = inputN.nextInt();
 		int currentCount = 0;
 		int total = 0;
+		//Calculates the sum of all numbers from 0 to that maximum number from the user input
 		while(currentCount <= numMax) {
 			System.out.println("Number " + currentCount);
 			total += currentCount;
