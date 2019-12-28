@@ -29,4 +29,4 @@ public class BooleanIf{
 			System.out.println(a + " is not equal to " + b);
 		
 	}
-} 
+}  
