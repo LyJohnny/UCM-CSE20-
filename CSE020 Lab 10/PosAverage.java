@@ -13,12 +13,13 @@ public class PosAverage {
 			
 			total += num;
 			i++;
-			
+		/if the input is greater than 0, it'll add that to the total and keep asking for an input	
 		} while (num > 0);
 		if(num <=0 && total <=0) {
 			System.out.println("No positive numbers were input");
 
 		}
+		//if the user inputs 0, it'll stop the program and output the average
 		else {	
 		total = total - num;
 		System.out.println("\nAverage is " + (double)(total/(i-2)));
