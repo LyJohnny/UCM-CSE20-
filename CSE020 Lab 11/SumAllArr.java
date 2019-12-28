@@ -39,6 +39,6 @@ public class SumAllArr {
 
 		System.out.println("Sum of numbers 1 to max is: " + arr1[max]);
 
-		input.close();
+		input.close(); 
 	}
 }
