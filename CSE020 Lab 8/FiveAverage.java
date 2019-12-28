@@ -15,23 +15,27 @@ public class FiveAverage {
 		runningCount = count;
 		total = 0;
 
+		/* If statements check if the running count is within range 0-5. 
+		   If true, it'll add the input num to total, and the running count decrements from 
+		   whatever the user initally chose for amount of numbers to average */
+		
 		if (runningCount == 5) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			int num = input.nextInt();
 			total = total + num;
-			runningCount = runningCount - 1;
+			runningCount--;
 		}
 
 		if (runningCount == 4) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
-			total = total + input.nextInt();
-			runningCount = runningCount - 1;
+			total += input.nextInt();
+			runningCount--;
 		}
 
 		if (runningCount == 3) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			runningCount = runningCount - 1;
+			runningCount--;
 		}
 
 		if (runningCount == 2) {
@@ -43,35 +47,15 @@ public class FiveAverage {
 		if (runningCount == 1) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			--runningCount;
+			runningCount--;
 		}
-
+		
+		//Checks to see if user had 1 input or more, if not, the program will end
 		if (count > 0)
 			System.out.println("Average is " + ((double)total/count));
 		else
 			System.out.println("There are no numbers to average.");
 	
-		/*
-		System.out.println("Prefix and Postfix operator Code");
-		int i = 10;
-		i--;
-		System.out.println(i);		
-		--i;			   
-		System.out.println(i);		
-		System.out.println(++i);	
-		System.out.println(i++);	
-		System.out.println(i);	
-		System.out.println(--i);	
-		System.out.println(i--);	
-		System.out.println(i);	
 
-		if (i++ == 8)
-			System.out.println("Eight");
-		
-		if (++i == 9)
-			System.out.println("Nine");
-		
-		System.out.println("Final value " + i);
-		*/
 	}
 }
