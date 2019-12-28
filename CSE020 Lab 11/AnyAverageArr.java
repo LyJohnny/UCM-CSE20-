@@ -33,7 +33,8 @@ public class AnyAverageArr {
 		
 	}
 	System.out.println("\nThe numbers being averaged are ...");
-		for (i = 1; i <= numAverage; i++) {
+		//Determines the column width to output the numbers and prints them 
+			for (i = 1; i <= numAverage; i++) {
 			if (i % columnWidth == 1) {
 				System.out.println();
 				System.out.print(arr1[i]+ " ");
