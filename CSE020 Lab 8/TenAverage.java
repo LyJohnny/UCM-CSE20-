@@ -15,6 +15,10 @@ public class TenAverage {
 		runningCount = count;
 		total = 0;
 
+		/* If statements check if the running count is within range 0-10. 
+		   If true, it'll add the input num to total, and the running count decrements from 
+		   what the user initally chose for amount of numbers to average */
+		
 		if (runningCount == 10) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			int num = input.nextInt();
@@ -24,14 +28,14 @@ public class TenAverage {
 
 		if (runningCount == 9) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
-			total = total + input.nextInt();
-			runningCount = runningCount - 1;
+			total += input.nextInt();
+			runningCount--;
 		}
 
 		if (runningCount == 8) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			runningCount = runningCount - 1;
+			runningCount--;
 		}
 
 		if (runningCount == 7) {
@@ -43,32 +47,32 @@ public class TenAverage {
 		if (runningCount == 6) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			--runningCount;
+			runningCount--;
 		}
 		if (runningCount == 5) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			--runningCount;
+			runningCount--;
 		}
 		if (runningCount == 4) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			--runningCount;
+			runningCount--;
 		}
 		if (runningCount == 3) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			--runningCount;
+			runningCount--;
 		}
 		if (runningCount == 2) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			--runningCount;
+			runningCount--;
 		}
 		if (runningCount == 1) {
 			System.out.print("Please enter " + (count - runningCount) + " number: ");
 			total += input.nextInt();
-			--runningCount;
+			runningCount--;
 		}
 
 
