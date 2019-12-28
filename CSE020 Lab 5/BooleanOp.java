@@ -14,7 +14,7 @@ public class BooleanOp {
 
 		System.out.println("a = " + a + ", b = " + b + " and c = " + c);	
 		System.out.println();
-
+		
 		System.out.println(a + " is greater than " + b + ": " + (a > b));
 		System.out.println(a + " is less than " + b + ": " + (a < b));
 		System.out.println(a + " is equal to " + b + ": " + (a = b));
