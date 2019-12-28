@@ -9,6 +9,7 @@ public class AllNumDo {
 
 		int max = input.nextInt();
 		int i = 0;
+		//do while loop that outputs numbers up to the max number from user input
 		do {
 			System.out.println("Number " + i);
 			i++;
