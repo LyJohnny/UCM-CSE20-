@@ -163,7 +163,7 @@ public class BobcatHotel {
 			System.out.println("Total Cost of Booking:\t$" + preliminaryCost);
 
 		}
-	}
+	} 
 }
 
 
