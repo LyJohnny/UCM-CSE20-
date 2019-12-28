@@ -9,7 +9,8 @@ public class BooleanIfElse{
 		a = in.nextInt();
 		System.out.print("Input the second number: ");
 		b = in.nextInt();
-
+		
+		//Using if and else if statement with boolean operators as the condition
 		if (a > b)
 			System.out.println(a + " is greater than " + b);
 		else if (a < b)
