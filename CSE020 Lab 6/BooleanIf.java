@@ -10,6 +10,7 @@ public class BooleanIf{
 		System.out.print("Input the second number: ");
 		b = in.nextInt();
 
+		//Using If Statements with boolean operators as the conditions
 		if (a > b)
 			System.out.println(a + " is greater than " + b);
 
