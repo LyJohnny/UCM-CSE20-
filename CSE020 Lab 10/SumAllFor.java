@@ -18,5 +18,6 @@ public class SumAllFor {
 		System.out.println("The sum of all numbers from 0 till " + numMax + " is " + total);
 
 	}
-
+ 
 }
+ 
