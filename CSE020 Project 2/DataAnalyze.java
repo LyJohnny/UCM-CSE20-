@@ -90,6 +90,6 @@ public class DataAnalyze {
 				System.out.println("The trials concur with each other!");
 			else 
 				System.out.println("The trials do NOT concur!");
-		} 
+		}  
 	}
 }
