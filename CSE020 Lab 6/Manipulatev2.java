@@ -63,4 +63,4 @@ public class Manipulatev2 {
 			System.out.println("the wrong type to output");
 		}
 	}	
-}
+} 
