@@ -12,10 +12,12 @@ public class Division {
 		numerator = keyboard.nextInt();
 		System.out.print("Enter the denominator: ");
 		denominator = keyboard.nextInt();
-
+		
+		//Checks to see if there's a divide by zero 
 		if(denominator == 0) {
 			System.out.println("Dividing by zero!");
 		}
+		//Dvidies the two numbers from the user and outputs it as a double. Int is up cast to a double
 		else {
 		System.out.println(numerator + "/" + denominator + " = " + (double) (numerator/denominator));
 
