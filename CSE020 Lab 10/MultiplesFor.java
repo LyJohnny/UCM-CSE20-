@@ -15,7 +15,8 @@ public class MultiplesFor {
 		System.out.println("\nMultiples of " + numMult + " from 1 till " + maximumNum + " are: ");
 		
 		int currentCount;
-		
+		/*Outputs the multiples of numMult till the maximum user input from maximumNum. 
+		Ex: Multiples of 3 till max number of 9 */
 		for(currentCount = 1; currentCount< maximumNum; currentCount++) {
 			if(currentCount % numMult == 0)
 			System.out.println("Number " + currentCount);
