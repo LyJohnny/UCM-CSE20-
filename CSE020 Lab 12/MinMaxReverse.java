@@ -37,7 +37,7 @@ public class MinMaxReverse {
 			System.out.print("arr[" + (arr.length-i) + "]=" + arr[arr.length-i]);
 			System.out.println("\tis the same as \trev_arr[" + (i-1) + "]=" + rev_arr[i-1]);
 		}
-
+ 
 	}
 
 }
