@@ -20,4 +20,4 @@ public class Errors5 {
 		System.out.println("Your weight in lbs is " + (int)(weight * 2.2) + " with no decimal point"); //the operation of weight*2.2 should be in parentheses
 	}
 
-}
+} 
