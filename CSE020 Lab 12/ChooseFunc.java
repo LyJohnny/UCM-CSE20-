@@ -77,6 +77,6 @@ public class ChooseFunc {
 				break;
 				// Fill-in (End the while(true) loop)
 			}
-		}
+		} 
 	}
 }
